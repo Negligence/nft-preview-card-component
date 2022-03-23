@@ -64,7 +64,7 @@ I used figure and figcaption here to pair images and texts together. Feel free t
 </figure>
 ```
 
-Kept classes to a minimum and used Descendand, Direct Child, and :first-child selectors to style.
+Kept classes to a minimum and used Descendant, Direct Child, and :first-child selectors to style.
 
 ```css
 body {
