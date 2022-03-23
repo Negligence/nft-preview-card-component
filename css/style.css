@@ -152,8 +152,8 @@ footer a:focus {
   color: var(--cyan);
 }
 
+.creator > a{height: 32px;}
 .creator > a:focus {
-  height: 32px;
   border-radius: 50%;
 }
 
