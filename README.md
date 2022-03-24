@@ -147,12 +147,12 @@ In addition to the :hover styles, I also added :focus styles for keyboard naviga
   font-size: 50px;
   z-index: 1;
   transform: scale(1, 0);
-  transition: transform 150ms ease-in-out;
 }
 
 .card-img:hover > img + img,
 .card-img:focus > img + img {
   transform: scale(1, 1);
+  transition: transform 150ms ease-in-out;
 }
 
 .card-img {
