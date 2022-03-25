@@ -159,17 +159,22 @@ In addition to the :hover styles, I also added :focus styles for keyboard naviga
   position: relative;
 }
 
-.card-img:hover::after,
-.card-img:focus::after{
+.card-img::after {
   content: '';
-  background-color: var(--cyan);
-  opacity: 50%;
+  background-color:hsla(178, 100%, 50%, 0.5);
+  opacity: 0;
   position: absolute;
   inset: 0;
   border-radius: 0.5rem;
 }
 
-h1 a, .creator a{transition: color 300ms ease-in-out;}
+.card-img:hover::after,
+.card-img:focus::after{
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+h1 a, .creator a, footer a{transition: color 300ms ease-in-out;}
 
 h1 a:hover,
 h1 a:focus,
@@ -180,8 +185,8 @@ footer a:focus {
   color: var(--cyan);
 }
 
+.creator > a{height: 32px;}
 .creator > a:focus {
-  height: 32px;
   border-radius: 50%;
 }
 
