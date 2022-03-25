@@ -81,7 +81,6 @@ article {
   display: grid;
   gap: 1.2rem;
   border-radius: 1rem;
-
 }
 
 div, figure, .card-img {
@@ -105,7 +104,6 @@ div, figure, .card-img {
 }
 
 p {font-size: 1.125rem; line-height: 1.5em;}
-
 
 div {justify-content: space-between;}
 
